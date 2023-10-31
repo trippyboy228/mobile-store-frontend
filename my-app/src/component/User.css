@@ -1,0 +1,68 @@
+.signup{
+    margin-left: 35%;
+}
+.inputBox{
+    
+    display: block;
+    margin: 25px;
+    padding: 7px;
+    width: 300px;
+    border: 1px solid skyblue;
+
+    
+}
+.inputBox:hover{
+    color: black;
+    font-size:16px;
+  font-family: cursive;
+  font-style: bold;
+}
+.signup h1{
+    font-size:40px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+}
+.submit{
+    margin-left: 3%;
+    width: 100px;
+    padding: 10px;
+}
+.submit:hover{
+    color: black;
+     font: size 28px; 
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-style: bold;
+}
+.success{
+  text-align: center;
+  font-size: 45px;
+  font-family:'Courier New', Courier, monospace;
+}
+.textis{
+      color:green;
+      font-display:initial ;
+     
+}
+.text{
+  color: red;
+}
+@media screen and (max-width:780px){
+  .inputBox{
+    width:150px;
+    margin:15px;
+  }
+  .signup{
+    margin-left:22% ;
+  }
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
